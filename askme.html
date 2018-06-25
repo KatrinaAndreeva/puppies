@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Тести</title>
+</head>
+<body>
+    <h1>Надайте відповіді на наступні питання:</h1>
+    <form name="test" method="post" action="https://formspree.io/katya-andreeva@ukr.net">
+        <label for="user-name">Ваше имя:
+            <input type="text" name="user-name" id="user-name" placeholder="Имя" required/>
+        </label>
+        
+        <label for="user-email">E-mail:
+            <input type="text" name="user-email" id="user-email" placeholder="E-mail" required/>
+        </label>
+        
+        <label for="user-phone">Номер телефона:
+            <input type="tel" name="user-phone" id="user-phone" placeholder="Номер телефона" maxlength="13" required/>
+        </label>
+        
+	<p id="v_1">
+		<strong>
+			1. Как реально получается:<br/>
+		</strong>
+		<input name="v1" type="radio" value="1">Много приятелей<br/>
+		<input type="radio" name="v1" value="2">Один-два настоящих друга
+	</p>
+	
+	<p id="v_2">
+		<strong>
+			2. Какой Вы:<br/>	
+		</strong>
+		<input name="v2" type="radio" value="1">Человек достаточно собранный и внимательный<br/>
+		<input type="radio" name="v2" value="2">Бывает так, что вы, задумываясь о чем-то, не видите и слышите, что происходит вокруг
+	</p>
+
+	<p id="v_3">
+		<strong>
+			3. Что важнее для того, чтобы фирма работала хорошо:<br/>	
+		</strong>
+		<input name="v3" type="radio" value="1">Четкая организация труда, знания и опыт работников<br/>
+		<input type="radio" name="v3" value="2">Хорошие отношения, эмоциональный тонус людей
+	</p>
+
+	<p id="v_4">
+		<strong>
+			4. Вам приятнее:<br/>	
+		</strong>
+		<input name="v4" type="radio" value="1">События своей жизни планировать заранее<br/>
+		<input type="radio" name="v4" value="2">Оставаться свободными от обязательств и делать то, что предлагает случай
+	</p>
+
+	<p id="v_5">
+		<strong>
+			5. Товарищ (подруга) привели вас в незнакомую компанию. Вы:<br/>	
+		</strong>
+		<input name="v5" type="radio" value="1">Можете сразу включиться в разговор<br/>
+		<input type="radio" name="v5" value="2">Какое-то время слушаете и наблюдаете за людьми
+	</p>
+
+<p id="v_6">
+		<strong>
+			6. Вы больше цените в себе:<br/>	
+		</strong>
+		<input name="v6" type="radio" value="1">Характер, волю, упорство<br/>
+		<input type="radio" name="v6" value="2">Интеллект, воображение, способности
+	</p>
+
+	<p id="v_7">
+		<strong>
+			7. Что для вас важнее:<br/>
+		</strong>
+		<input name="v7" type="radio" value="1">Разум вы ставите превыше чувств, имеете объективное мнение о людях, независимо от симпатий к ним, стараетесь не обсуждать темы личной жизни<br/>
+		<input type="radio" name="v7" value="2">Чувста играют в вашей жизни значительную роль, для вас важнее отношение человека к вам и ваше отношение к нему, чем его объективные данные
+	</p>
+
+	<p id="v_8">
+		<strong>
+			8. Как вы работаете:<br/>	
+		</strong>
+		<input name="v8" type="radio" value="1">Прерывать текущую работу на середине вы не любите<br/>
+		<input type="radio" name="v8" value="2">Можете начать слишком много работ сразу и с трудом их заканчивать
+	</p>
+
+	<p id="v_9">
+		<strong>
+			9. Какое слово соответствует вашему духовному складу:<br/>	
+		</strong>
+		<input name="v9" type="checkbox" value="1">Завершенность<br/>
+		<input type="checkbox" name="v9" value="2">Эскиз<br/>
+		<input type="checkbox" name="v9" value="3">Работоспособность<br/>
+		<input type="checkbox" name="v9" value="4">Возвышенность<br/>
+		<input type="checkbox" name="v9" value="5">Настойчивость<br/>
+	</p>
+
+        <input type="submit" value="Send"/>
+    </form>
+</body>
+</html>
